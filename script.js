@@ -1,0 +1,1 @@
+const movies = fetch("http://localhost:3000/movies",)
