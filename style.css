@@ -3,5 +3,35 @@ body {
     color:rgb(213, 213, 213);
 }
 h1 {
-    color: brown;
+    color: #ffea00dc;
+    
+}
+h2 {
+    color: #cecece;
+    height: 45px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+
+}
+.movie-card {
+    flex-basis: 20%;
+}
+
+/*бутон*/
+a:link, a:visited {
+    background-color: #ffea00dc;
+    color: rgb(1, 0, 34);
+    padding: 9px 21px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;}
+    /*маркиране на бутона*/
+a:hover, a:active {
+    background-color:rgb(255, 225, 0);
+    color: rgb(4, 0, 122);
+   
 }
