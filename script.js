@@ -1,7 +1,7 @@
 console.log
 ("Hello");
 
-let is_clicked = false;
+
 
 function myFunction() {
     let clickButtonElement = document.getElementById('click-button')
